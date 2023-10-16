@@ -1,0 +1,84 @@
+.orders-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .orders-box {
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  button {
+    background-color: #E4B95B;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: -20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #f3d491;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tr-actions button {
+    background-color: #dc3545;
+  }
+  
+  .tr-actions button:hover {
+    background-color: #c82333;
+  }
+  
+  .editing-order {
+    background-color: #fff;
+    border: 1px solid #007bff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+  

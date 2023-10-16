@@ -1,0 +1,38 @@
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 570px;
+    margin-top: 75px;
+  }
+  
+  .botao {
+    background-color: #E4B95B;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 150px;
+    margin-left: -170px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+  }
+
+  .botao02 {
+    margin-top: 200px;
+  }
+  
+  button :hover {
+    background-color: #f3d491;
+  }
+  
+  h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+  }
+ 
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
