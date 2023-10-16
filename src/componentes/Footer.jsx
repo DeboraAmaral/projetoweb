@@ -1,5 +1,4 @@
 import {} from 'react';
-import { Link } from 'react-router-dom';
 import icone01 from '../assets/img/instagram.png'
 import icone02 from '../assets/img/linkedin.png'
 import icone03 from '../assets/img/github.png'
